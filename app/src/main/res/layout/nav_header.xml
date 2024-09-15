@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navhead"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@color/mainlogocolor"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:textAlignment="viewStart"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="116dp"
+        android:layout_height="70dp"
+        android:background="@drawable/login_rounded_btn"
+        android:paddingTop="16dp"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:id="@+id/textusername"
+        android:layout_width="146dp"
+        android:layout_height="60dp"
+        android:background="@color/mainlogocolor"
+
+        android:paddingTop="16dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+</LinearLayout>

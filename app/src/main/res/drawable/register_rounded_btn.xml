@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Set the corner radius here -->
+    <corners android:radius="30dp" />
+
+    <!-- Background color of the button -->
+    <solid android:color="#FA8072" />
+
+    <!-- Optional: Add a stroke (border) around the button -->
+    <stroke
+        android:width="2dp"
+        android:color="#F44336" />
+</shape>
